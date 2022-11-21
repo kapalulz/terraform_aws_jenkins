@@ -1,13 +1,14 @@
 myip=`curl http://169.254.169.254/latest/meta-data/local-ipv4`
 
 <html>
-<h2> <p style="color:white">Build by Power of Terraform: ' $myip ' </p></h2> <font color="red"> v0.1 </font> <br>
+<h2> <p style="color:white">Terraform->AWS->Jenkins->Git->FTP->Apache2: BUILD_DISPLAY_NAME </p></h2> <font color="red"> v $BUILD_ID </font> <br>
  
 <body style="background-color:black;">
-   <p style="color:white">Hello there, second time!</p>
-   <p style="color:white">Privet vsem!</p>
+   <p style="color:white">Hello there!</p>
+   
+   <img src="pic/frog.jpg" alt="frog">
+   
 </body>
 
-<p style="color:white">CI/CD</p>
-
 </html>
+
